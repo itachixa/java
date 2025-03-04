@@ -1,19 +1,19 @@
 import java.util.Scanner;
 public class EXO2 {
     public static void main(String[] args) {
-        int  number_friend;
+        int  numberFriend;
 
         Scanner input = new Scanner(System.in);
         System.out.print("enter the number of  the friend :");
-        number_friend= input.nextInt();
-        int[] age = new  int[number_friend];
-        double[] height= new double[number_friend];
+        numberFriend= input.nextInt();
+        int[] age = new  int[numberFriend];
+        double[] height= new double[numberFriend];
         int max_age,min_age;
         double max_height;
 
 
 
-        for  (int i =0; i<number_friend;i++){
+        for  (int i =0; i<numberFriend;i++){
             System.out.print("pls enter the age of  "+(i+1)+(":"));
             age[i]= input.nextInt();
             System.out.print("his heigtht :");
@@ -22,7 +22,7 @@ public class EXO2 {
          max_age=age[0];
          min_age= age[0];
          max_height=height[0];
-        for (int i =0; i<number_friend;i++){
+        for (int i =0; i<numberFriend;i++){
             if (max_age<age[i]){
                 max_age=age[i];
             }
@@ -36,7 +36,7 @@ public class EXO2 {
            }
         }
 
-       System.out.println("the all information is :\n----------------------------------------------");
+       System.out.println("----------------------------------------------");
         
        System.out.println("the youngess age is "+min_age);
        System.out.println("the old age is :"+max_age);
