@@ -1,3 +1,5 @@
+package Week4.LEVEL1_pratique;
+
 import java.util.Scanner;
 
 public class Vote {
@@ -14,9 +16,12 @@ public class Vote {
 
         for (int i = 0; i < NumberOFVoters; i++) {
             if (Age[i] >= 18) {
-                System.out.println("the students  number " + (i + 1) + " who has   "+Age[i]+" old year can vote.  ");
-            } else {
-                System.out.println("the students  number " + (i + 1) + " who has  "+Age[i]+" old year can not vote .");
+                System.out.println("the students  number " + (i + 1) + " who has   "+Age[i]+" old year :can vote.  ");
+            } else if(Age[i]>0){
+                System.out.println("the students  number " + (i + 1) + " who has  "+Age[i]+" old year: can not vote .");
+            }
+            else{
+                System.out.println("the students  number " + (i + 1) +":the invalide age");
             }
         }
 

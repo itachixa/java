@@ -1,3 +1,5 @@
+package Week4.LEVEL1_pratique;
+
 import java.util.Scanner;
 public class parity {
     public static void main(String[] args) {

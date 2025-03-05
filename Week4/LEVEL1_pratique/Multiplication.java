@@ -1,3 +1,5 @@
+package Week4.LEVEL1_pratique;
+
 import java.util.Scanner;
 
 public class Multiplication {
@@ -10,9 +12,10 @@ public static void main(String[] args) {
    for(int i=0;i<10;i++){
       Multi[i]= Number*(i+1);
    }
-   for(int i=0;i<0;i++){
-      System.out.println("------------------------Muliplication for"+Number+"-------------------");
-      System.out.println(Number+"*"+(i+1)+"="+Multi[i]);;
+   System.out.println("------------------------Muliplication for "+Number+" -------------------");
+   for(int i=0;i<10;i++){
+     
+      System.out.println(Number+"*"+(i+1)+"="+Multi[i]);
    }
 }
 
