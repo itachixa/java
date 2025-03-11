@@ -3,6 +3,7 @@ package Week4.LEVEL1_pratique;
 import java.util.Scanner;
 public class TwoD_In_1D {
 public static void main(String[] args) {
+    
     int[][] matrix= new int[2][2];
     Scanner Input = new Scanner(System.in);
     int[] SingleDimention = new int[4];
