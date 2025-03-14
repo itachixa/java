@@ -6,7 +6,7 @@ public class triangularPark {
             return a+b+c;
         }
 
-        public static double  NBround(double D ,double a,double b,double c){
+        public static double  NBround(double a,double b,double c,double D ){
             return D/perimeter(a, b, c);
         } 
         
