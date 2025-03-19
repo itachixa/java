@@ -1,4 +1,4 @@
-package Methode;
+package Methode.Level1;
 
 import java.util.Scanner;
 
@@ -12,16 +12,21 @@ public class MinMax {
                 Max = n3;
             }
 
+        } else if (Max < n3) {
+            Max = n3;
         }
         System.out.println("the Max is " + Max);
 
         if (Min > n2) {
             Min = n2;
             if (Min > n3) {
-                Max = n3;
+                Min = n3;
             }
 
+        } else if (Min > n3) {
+            Min = n3;
         }
+
         System.out.println("the Min is " + Min);
 
     }

@@ -1,4 +1,4 @@
-package Methode;
+package Methode.level3;
 
 import java.util.Scanner;
 

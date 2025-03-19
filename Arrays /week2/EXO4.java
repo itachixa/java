@@ -52,5 +52,6 @@ public class EXO4 {
         input.close();
         System.out.println("le nombre maximal est :" + Max1);
         System.out.println("le nombre suivant le plus grand est :" + Max2);
+        input.close();
     }
 }

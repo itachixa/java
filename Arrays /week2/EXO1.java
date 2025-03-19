@@ -40,6 +40,7 @@ public class EXO1 {
             System.out.println("--------------------------------------------");
 
         }
-
+        input.close();
     }
+    
 }

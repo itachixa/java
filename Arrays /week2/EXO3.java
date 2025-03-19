@@ -42,5 +42,6 @@ public class EXO3 {
         input.close();
         System.out.println("the first maximal digit is :" + Max1);
         System.out.println("the second Max is  :" + Max2);
+        input.close();
     }
 }

@@ -37,7 +37,7 @@ public class EXO7 {
             System.out.println("the statut of "+(i+1)+" Employer is :"+weightStatus[i]);
             System.out.println("---------------------------------------------------");
         }
-        
+        Input.close();
  
     }
 }

@@ -61,5 +61,6 @@ public class EXO9 {
         }
 
         scanner.close();
+        
     }
 }

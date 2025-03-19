@@ -41,6 +41,8 @@ public class EXO2 {
        System.out.println("the youngess age is "+min_age);
        System.out.println("the old age is :"+max_age);
        System.out.println("the  tallest height :"+max_height);
+       input.close();
     }
+
     
 }

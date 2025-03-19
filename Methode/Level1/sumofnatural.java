@@ -1,4 +1,4 @@
-package Methode;
+package Methode.Level1;
 import java.util.Scanner;
 public class sumofnatural {
     public static  int sum(int n){

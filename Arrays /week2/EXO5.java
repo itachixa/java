@@ -35,5 +35,6 @@ public class EXO5 {
             System.out.print(reverse[y]);
 
         }
+        input.close();
     }
 }

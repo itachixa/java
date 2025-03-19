@@ -1,4 +1,4 @@
-package Methode;
+package Methode.level3;
 import java.util.Scanner;
 public class NumberChecker4 extends NumberChecker3  {
 public static void main(String[] args) {

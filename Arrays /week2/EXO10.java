@@ -34,5 +34,6 @@ public class EXO10 {
         for (int a = 0; a < index; a++) {
             System.out.println("The frequency of " + digit[a] + " is: " + NbDigit[a]);
         }
+        
     }
 }

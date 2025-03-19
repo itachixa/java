@@ -39,6 +39,6 @@ public class EXO6 {
             System.out.println("---------------------------------------------------");
         }
         
- 
+        Input.close();
     }
 }

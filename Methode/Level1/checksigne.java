@@ -1,4 +1,4 @@
-package Methode;import java.util.Scanner;
+package Methode.Level1;import java.util.Scanner;
 
 public class checksigne {
     public static int check(int n){
