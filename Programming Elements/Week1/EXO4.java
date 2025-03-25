@@ -10,5 +10,6 @@ public class EXO4 {
         profit= selling_price-cost_price;
         profit_pr=(profit/cost_price)*100;
         System.out.println("the profit  is: "+ profit+"\nthe pourcentage of profit is: "+profit_pr);
+        input.close();
     }  
 }

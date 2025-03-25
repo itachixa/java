@@ -12,6 +12,7 @@ public class mean {
             sum+=playersHeigth[i];
         }
         System.out.println("the mean of heigth  is :"+sum/11+"cm");
+        Input.close();
     }
     
 }

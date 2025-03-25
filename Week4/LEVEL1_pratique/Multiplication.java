@@ -17,6 +17,7 @@ public static void main(String[] args) {
      
       System.out.println(Number+"*"+(i+1)+"="+Multi[i]);
    }
+   Input.close();
 }
 
 }

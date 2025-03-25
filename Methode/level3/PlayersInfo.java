@@ -48,6 +48,7 @@ public class PlayersInfo {
         System.out.println("the averge of heigth is : " + AVG(Player, number));
         System.out.println("the Minimum of heigth is : " + Min(Player, number));
         System.out.println("the Maximum of heigth is : " + Max(Player, number));
+        input.close();
 
     }
 

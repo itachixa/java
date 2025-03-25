@@ -6,6 +6,7 @@ public  static void  main(String[] args){
   System.out.print("enter the distance :");
   distance =input.nextDouble();
   System.out.println("the  distance in mile is :"+(distance*1.6)+" mile");
+  input.close();
 }
 
 }

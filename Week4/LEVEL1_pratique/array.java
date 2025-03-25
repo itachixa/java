@@ -28,6 +28,7 @@ public class array {
           sum+=number[i];
         }
         System.out.println("the sum of numbers in array is :"+sum);
+        Input.close();
     }
     
 }

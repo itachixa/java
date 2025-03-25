@@ -14,8 +14,9 @@ public  static void  main(String[] args){
     
     System.out.print("enter your maks in chymestrie :");
     physic_marks= input.nextDouble();
-    
     System.out.println("The average  of this note is : "+((math_marks+physic_marks+chemesrty_marks)/3));
+
+    input.close();
 }
     
 }

@@ -5,5 +5,6 @@ public class EXO1{
     Scanner input = new Scanner(System.in);
     int both_year= input.nextInt();
     System.out.println("Harry's age in 2024 is :"+(2024-both_year));
+    input.close();
     }
 }
