@@ -4,7 +4,7 @@ package Methode.level3;
 import java.util.Scanner;
 import java.math.*;
 
-public class  NumberChecker2 {
+public class  NumberChecker2 extends NumberChecker {
 
 public static int NbDigit(String Number){
     return Number.length();
