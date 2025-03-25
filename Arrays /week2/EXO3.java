@@ -20,7 +20,7 @@ public class EXO3 {
         Max = Number[0];
         for (int i = 0; i < 2; i++) {
             for (int x = 0; x <Numbers.length(); x++) {
-              
+        
                     if (Max< Number[x]) {
                         Max = Number[x];
                         index=x;

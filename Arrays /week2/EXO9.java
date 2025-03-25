@@ -44,9 +44,8 @@ public class EXO9 {
                 }
             }
 
-            
             percentages[i] = (marks[i][0] + marks[i][1] + marks[i][2]) / 3.0;
-          
+
             grades[i] = calculateGrade(percentages[i]);
         }
 
@@ -61,6 +60,6 @@ public class EXO9 {
         }
 
         scanner.close();
-        
+
     }
 }

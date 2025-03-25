@@ -10,10 +10,9 @@ public class EXO10 {
 
         System.out.print("Enter the number: ");
         String Number = input.nextLine();
-        input.close(); 
+        input.close();
 
-        int[] frequency = new int[10]; 
-        
+        int[] frequency = new int[10];
 
         for (int i = 0; i < Number.length(); i++) {
             char c = Number.charAt(i);
@@ -34,6 +33,6 @@ public class EXO10 {
         for (int a = 0; a < index; a++) {
             System.out.println("The frequency of " + digit[a] + " is: " + NbDigit[a]);
         }
-        
+
     }
 }
