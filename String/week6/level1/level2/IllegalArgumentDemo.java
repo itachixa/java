@@ -21,6 +21,13 @@ public class IllegalArgumentDemo {
         String text = sc.next();
         System.out.print("Enter start index: ");
         int start = sc.nextInt();
-        System.out.print
-::contentReference[oaicite:0]{index=0}
- 
+        System.out.print("Enter end index: ");
+        int end = sc.nextInt();
+        
+        // Using the method that generates exception
+        generateException(text, start, end);
+
+        // Using the method that handles exceptions
+        handleException(text, start, end);
+    }
+}

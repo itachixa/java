@@ -63,11 +63,11 @@ public class MEthodeUse {
     public static void main(String[] args) {
     Scanner Input = new Scanner(System.in);
     int size;
-    System.out.println("please enter the number of number ");
+    System.out.print("please enter the number of number ");
     size=Input.nextInt();
     int [] Numbers= new int[size];
      for (int i= 0; i<size;i++){
-         System.out.println("please enter the "+(i+1)+"number :");
+         System.out.print("please enter the "+(i+1)+" number :");
          Numbers[i]=Input.nextInt();
      }
 
